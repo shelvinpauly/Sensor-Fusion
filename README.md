@@ -2,7 +2,6 @@
 
 In this project, you'll fuse measurements from LiDAR and camera and track vehicles over time. You will be using real-world data from the Waymo Open Dataset, detect objects in 3D point clouds and apply an extended Kalman filter for sensor fusion and tracking.
 
-<img src="img/img_title_1.jpeg"/>
 
 The project consists of two major parts: 
 1. **Object detection**: In this part, a deep-learning approach is used to detect vehicles in LiDAR data based on a birds-eye view perspective of the 3D point-cloud. Also, a series of performance measures is used to evaluate the performance of the detection approach. 
@@ -243,9 +242,5 @@ A sensor-fusion systemcould be confronted with a variety of real-world issues su
 This project eliminates the issue of extrinsic parameter tuning, which is one method for camera and 
 LiDAR fusion. These extrinsic parameters are defined since we are using a public dataset for this 
 experiment.
-
-## Improvement opportunity:
-
-As already stated, the project should carry out the Camera-LiDAR Fusion Monitoring. And also, A 3D measuring model of the real camera sound can assist with the fusion effect, we can fit actual 3d points in the lidar point cloud to the vehicle target pixels.It is best suited to use a camera sound for providing individual noise variances and also for better projection matrix creation.
 
 
